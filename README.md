@@ -1,4 +1,4 @@
-Projeto elaborado para verificar status de cadastro conforme solicitado.
+Projeto elaborado para verificar status de cadastro conforme solicitado. <br>
 Nome e sobrenome apenas strings
 validar idade +18
 validação de email
