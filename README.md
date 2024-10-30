@@ -1,9 +1,9 @@
 Projeto elaborado para verificar status de cadastro conforme solicitado. <br>
-Nome e sobrenome apenas strings
-validar idade +18
-validação de email
-user ultilizando apenas string e number
-password necessario ter string number caracter (@#$%?)
-confirmação de password.
-
-tecnologias ultilizadas ( CSS / Bootstrap / Javascript) 
+Nome e sobrenome apenas strings. <br>
+validar idade +18. <br>
+validação de email. <br>
+user ultilizando apenas string e number. <br>
+password necessario ter string number caracter (@#$%?). <br>
+confirmação de password. <br>
+<br>
+tecnologias ultilizadas ( CSS / Bootstrap / Javascript) . <br>
