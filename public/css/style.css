@@ -1,0 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.check-fail {
+  color: red;
+}
+
+.check-success {
+  color: lightgreen;
+}
+
+nav {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 12px 0;
+  background-color: black;
+  color: white;
+}
+nav .title h1 {
+  margin-left: 30px;
+  font-weight: 600;
+  font-size: 50px;
+  cursor: pointer;
+}
+nav .link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+nav .link a {
+  color: white;
+  float: right;
+  margin-right: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+}
+nav .link a:hover::after {
+  background-color: rgb(25, 130, 228);
+  width: 100%;
+}
+nav .link a::after {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 4px;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+main {
+  padding: 50px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: url(/img/fuindo19.jpeg) no-repeat;
+  background-size: 100%;
+  background-position: 0 -500px;
+}
+main .register {
+  color: white;
+  width: 40%;
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
+  border: 2px solid black;
+  border-radius: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  padding: 10px 20px;
+}
+main .register img {
+  width: 20px;
+}
+main label {
+  font-size: 1.3rem;
+  margin: 5px 0;
+  font-weight: bold;
+}
+main input {
+  padding: 0 8px;
+  width: 90%;
+  margin-bottom: 5px;
+  padding: 4px 6px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+}
